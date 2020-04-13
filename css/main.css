@@ -56,26 +56,26 @@
       height: 250px;
       background: url(../img/LinGao.jpg);
       border-radius: 50%;
-      border: solid 3px #f4a896; }
+      border: solid 3px #ec9688; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #f4a896; }
+      color: #ec9688; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
     font-size: 30px;
     text-transform: uppercase;
     padding: 1rem 0;
-    font-weight: 300;
+    font-weight: bold;
     color: #fff;
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #f4a896; }
+      color: #ec9688; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -133,7 +133,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #f4a896; }
+  color: #ec9688; }
 
 main {
   padding: 4rem;
@@ -143,7 +143,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #f4a896;
+        color: #ec9688;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -160,7 +160,7 @@ main {
   grid-area: bioimage;
   margin: auto;
   border-radius: 50%;
-  border: #f4a896 3px solid; }
+  border: #ec9688 3px solid; }
 
 .bio {
   grid-area: bio;
@@ -178,7 +178,7 @@ main {
 .job {
   background: #3c96aa;
   padding: 0.5rem;
-  border-bottom: #f4a896 5px solid; }
+  border-bottom: #ec9688 5px solid; }
 
 .projects {
   display: grid;
@@ -189,12 +189,11 @@ main {
     border: #fff 3px solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #f4a896;
+      border-color: #ec9688;
       transition: all 0.5s ease-out; }
 
 .boxes {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
   justify-content: space-evenly;
   align-items: center;
   margin-top: 1rem; }
@@ -206,27 +205,28 @@ main {
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background: #f4a896;
+      background: #ec9688;
       color: #000; }
       .boxes div:hover span {
         color: #000; }
 
 .btn, .btn-dark, .btn-light {
-  display: block;
+  display: inline-flex;
   padding: 0.5rem 1rem;
   border: 0;
+  margin-left: 1.5rem;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #f4a896;
+    background: #ec9688;
     color: #000; }
 
 .btn-dark {
   background: #21535e;
-  color: #fff; }
+  color: white; }
 
 .btn-light {
   background: #55afc3;
-  color: #fff; }
+  color: white; }
 
 #main-footer {
   text-align: center;
